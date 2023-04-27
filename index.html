@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Album">
+    <meta name="author" content="Sajad Jamali">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Album</title>
+    <link href="bootstrapFiles/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      #btt:hover{
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+      }
+      .card{
+        background-color: #b0bdb7;
+      }
+      .col:hover{
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      }
+      footer{
+        background: rgb(31,134,204);
+        background: linear-gradient(43deg, rgba(31,134,204,1) 9%,
+        rgba(31,134,204,1) 22%, rgba(26,102,207,1) 22%,
+        rgba(31,134,204,1) 34%, rgba(23,209,184,1) 58%,
+        rgba(52,97,168,1) 75%, rgba(52,97,168,1) 86%);
+      }
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+    </style>
+
+  </head>
+
+<body>
+
+<header class="bg-dark d-flex justify-content-center">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        click me!..
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              pleayers
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Messi</a></li>
+              <li><a class="dropdown-item" href="#">Ronaldo</a></li>
+              <li><a class="dropdown-item" href="#">Neymar</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<br>
+<div class="b-example-divider"></div>
+
+<main>
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/1.jpg" class="img-fluid" alt="not found">
+              <p class="card-text">
+              <b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/2.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/3.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/4.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/5.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/6.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/7.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/8.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/9.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/10.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/11.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/12.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center  align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/13.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center  align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/14.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center  align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img src="imgs/15.jpg" class="img-fluid" alt="not found">
+              <p class="card-text"><b>Zlatan Ibrahimovic</b>: Messi does not need his right foot. He only uses the left and he’s still the best in the world. Imagine if he also used his right foot, then we would have serious problems.</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="b-example-divider"></div>
+
+<footer class="py-5 d-flex justify-content-center">
+  <a id="btt" href="#" class="btn btn-danger btn-lg" role="button" aria-disabled="true">Back To Top</a>
+</footer>
+
+    <script src="bootstrapFiles/bootstrap.bundle.min.js"></script>
+      
+  </body>
+</html>
